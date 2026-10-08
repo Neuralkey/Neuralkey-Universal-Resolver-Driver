@@ -1,0 +1,29 @@
+{
+  "name": "neuralkeyresolverdriver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch ./src/index.ts",
+    "build": "tsc --build",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "commonjs",
+  "dependencies": {
+    "@digitalbazaar/did-method-key": "^5.3.0",
+    "@digitalbazaar/ed25519-verification-key-2020": "^4.2.0",
+    "did-resolver": "^5.0.1",
+    "express": "^5.2.1",
+    "web-did-resolver": "^2.0.32"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2"
+  }
+}
